@@ -289,9 +289,30 @@ new idle detection heuristics, test coverage.
 
 ---
 
+---
 ## 👤 Author
 
-**Ashwani Kumar** · Head of DevOps · CKA Certified  
-📧 ashwani.kumar.career@gmail.com · 🔗 [linkedin.com/in/ashwani547](https://linkedin.com/in/ashwani547)
+<p align="left">
+  <a href="https://github.com/betelabs" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 
-<div align="center"><sub>⭐ Star this repo if it helped you cut cloud costs</sub></div>
+  <a href="https://linkedin.com/in/ashwani547" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashwani%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="mailto:hello@betelabs.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+### Ashwani Kumar
+Head of DevOps • Kubernetes Engineer • Cloud Native Enthusiast
+
+---
+
+<div align="center">
+  <sub>
+    ⭐ If this project helped you cut cloud costs, consider starring the repository to support the project.
+  </sub>
+</div>
