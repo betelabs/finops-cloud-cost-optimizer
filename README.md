@@ -340,16 +340,29 @@ PRs welcome. High-value contributions:
 - Test coverage improvements
 
 ---
-
 ## 👤 Author
 
-**Ashwani Kumar** · Head of DevOps · CKA Certified  
-📧 ashwani.kumar.career@gmail.com  
-🔗 [linkedin.com/in/ashwani547](https://linkedin.com/in/ashwani547)  
-🐙 [github.com/ashwani547](https://github.com/ashwani547)
+<p align="left">
+  <a href="https://github.com/betelabs" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="https://linkedin.com/in/ashwani547" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashwani%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="mailto:hello@betelabs.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+### Ashwani Kumar
+Head of DevOps • Kubernetes Engineer • Cloud Native Enthusiast
 
 ---
 
 <div align="center">
-<sub>⭐ Star this repo if it helped you cut cloud costs — it helps others find it</sub>
+  <sub>
+    ⭐ If this project helped you cut your cloud cost, consider starring the repository to support the project.
+  </sub>
 </div>
