@@ -1,0 +1,21 @@
+# Fine-tune detection sensitivity per resource type
+
+ec2:
+  cpu_idle_threshold_pct: 5
+  cpu_idle_days: 14
+  network_idle_bytes_per_day: 1048576
+
+rds:
+  cpu_idle_threshold_pct: 10
+  connections_idle_threshold: 2
+  idle_days: 7
+
+ebs:
+  unattached_days: 3
+
+snapshots:
+  stale_days: 90
+
+nat_gateway:
+  bytes_processed_threshold: 1048576
+  idle_days: 7

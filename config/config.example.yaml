@@ -1,0 +1,32 @@
+# finops-cloud-cost-optimizer — Configuration Template
+# cp config/config.example.yaml config/config.yaml  then fill in your values
+
+aws:
+  regions: [us-east-1, ap-south-1, eu-west-1]
+  account_id: "123456789012"
+
+azure:
+  subscription_id: "your-subscription-id"
+  tenant_id: "your-tenant-id"
+
+gcp:
+  project_id: "your-gcp-project"
+  billing_account: "XXXXXX-XXXXXX-XXXXXX"
+
+thresholds:
+  idle_cpu_percent: 5        # flag EC2 with avg CPU < 5 % over last N days
+  idle_cpu_days: 14
+  idle_network_bytes: 1048576  # 1 MB — flag if avg daily traffic < 1 MB
+  unattached_ebs_days: 3
+  stale_snapshot_days: 90
+
+budget_alerts:
+  monthly_budget_usd: 50000
+  alert_at_percent: [50, 80, 95, 100]
+  slack_webhook: ""          # https://hooks.slack.com/services/...
+  alert_email: ops@yourcompany.com
+
+reporting:
+  output_formats: [html, json]
+  send_to_slack: false
+  s3_bucket: ""              # optional — upload reports to S3
