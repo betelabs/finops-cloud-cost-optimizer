@@ -13,7 +13,7 @@
 [![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?logo=grafana&logoColor=white)](https://grafana.com)
 [![Terraform](https://img.shields.io/badge/Terraform-1.7-7B42BC?logo=terraform&logoColor=white)](https://terraform.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/ashwani547/finops-cloud-cost-optimizer/actions/workflows/ci.yaml/badge.svg)](https://github.com/ashwani547/finops-cloud-cost-optimizer/actions)
+[![CI](https://github.com/betelabs/finops-cloud-cost-optimizer/actions/workflows/ci.yaml/badge.svg)](https://github.com/betelabs/finops-cloud-cost-optimizer/actions)
 
 </div>
 
@@ -44,7 +44,7 @@ This tool gives you:
 | Organisation | Cloud | Baseline | Saved/mo | Saving % | Time |
 |---|---|---|---|---|---|
 | [Tricog Health](case-studies/tricog-health-25pct-savings.md) | AWS + Azure | $48K | $12,100 | 25% | 90 days |
-| [Marvin Inc](case-studies/marvin-inc-startup-cost-control.md) | AWS | $22K | $5,190 | 24% | 90 days |
+| [Marvin](case-studies/marvin-inc-startup-cost-control.md) | AWS | $22K | $5,190 | 24% | 90 days |
 | [Coredge Inc](case-studies/coredge-multicloud-governance.md) | AWS+Azure+GCP | $95K | $20,800 | 22% | 60 days |
 | [RapidCanvas](case-studies/rapidcanvas-mlops-cost.md) | AWS + GCP | $38K | $10,570 | 28% | 90 days |
 
@@ -98,7 +98,7 @@ aws configure   # AWS CLI with Cost Explorer + EC2 + CloudWatch access
 
 ### Install
 ```bash
-git clone https://github.com/ashwani547/finops-cloud-cost-optimizer.git
+git clone https://github.com/betelabs/finops-cloud-cost-optimizer.git
 cd finops-cloud-cost-optimizer
 pip install -r requirements.txt
 cp config/config.example.yaml config/config.yaml
@@ -325,7 +325,7 @@ Real results from real deployments — not synthetic benchmarks:
 | Write-up | Summary |
 |---|---|
 | [Tricog Health — 25% in 90 days](case-studies/tricog-health-25pct-savings.md) | Healthcare SaaS, full methodology, $145K annual savings |
-| [Marvin Inc — Startup FinOps](case-studies/marvin-inc-startup-cost-control.md) | Series A startup, dev-env scheduling, ML guardrails |
+| [Marvin — Startup](case-studies/marvin-inc-startup-cost-control.md) | Series A startup, dev-env scheduling, ML guardrails |
 | [Coredge — Multi-cloud Governance](case-studies/coredge-multicloud-governance.md) | 3-cloud unified view, client chargeback, $250K/yr |
 | [RapidCanvas — ML Cost Optimisation](case-studies/rapidcanvas-mlops-cost.md) | GPU spot instances, auto-terminate, 28% reduction |
 
