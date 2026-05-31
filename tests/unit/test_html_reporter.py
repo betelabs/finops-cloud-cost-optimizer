@@ -1,5 +1,6 @@
 """Unit tests for HTMLReporter."""
-import os, tempfile
+import os
+import tempfile
 from src.reporters.html_reporter import HTMLReporter
 
 

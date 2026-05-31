@@ -71,14 +71,10 @@ class HTMLReporter:
             w = item["waste_usd"]
             cls = "red" if w > 500 else ("amber" if w > 100 else "green")
             rows += (
-                f"<tr>"
-                f"<td>{i}</td>"
-                f"<td><code>{item['id']}</code></td>"
-                f"<td>{item['type']}</td>"
-                f"<td>{item.get('cloud','aws')}</td>"
+                f"<tr><td>{i}</td><td><code>{item['id']}</code></td>"
+                f"<td>{item['type']}</td><td>{item.get('cloud', 'aws')}</td>"
                 f"<td><span class='badge {cls}'>{item['action']}</span></td>"
-                f"<td><strong>${w:,.2f}</strong></td>"
-                f"</tr>"
+                f"<td><strong>${w:,.2f}</strong></td></tr>"
             )
         total  = summary.get("total_spend_usd", 0) or 1
         waste  = summary.get("total_monthly_waste_usd", 0)

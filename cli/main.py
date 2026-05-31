@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """finops-cloud-cost-optimizer — CLI entrypoint."""
 from __future__ import annotations
-import sys, json, yaml, click
+
+import sys
+
+import click
+import yaml
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -26,7 +30,7 @@ def scan(cloud: str, days: int, config: str, output: str):
     """Scan for idle resources and estimate waste."""
     cfg = _load_config(config)
     click.echo(f"\n{'─'*52}")
-    click.echo(f"  finops-cloud-cost-optimizer v1.0.0")
+    click.echo("  finops-cloud-cost-optimizer v1.0.0")
     click.echo(f"  Cloud: {cloud.upper()} | Look-back: {days} days")
     click.echo(f"{'─'*52}")
 
@@ -77,7 +81,8 @@ def report(cloud: str, days: int, output: str, fmt: str, config: str):
         from src.collectors.aws_collector import AWSCollector
         collector = AWSCollector(cfg.get("aws", {}))
     else:
-        click.echo(f"⚠  {cloud} not yet supported", err=True); sys.exit(1)
+        click.echo(f"⚠  {cloud} not yet supported", err=True)
+        sys.exit(1)
 
     from src.analyzers.idle_detector import IdleResourceDetector
 
