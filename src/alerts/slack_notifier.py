@@ -1,7 +1,7 @@
 """Send cost alerts to a Slack webhook."""
 from __future__ import annotations
-import json
-import requests
+import json, requests
+from typing import Dict
 
 
 class SlackNotifier:
