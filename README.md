@@ -13,7 +13,7 @@
 [![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?logo=grafana&logoColor=white)](https://grafana.com)
 [![Terraform](https://img.shields.io/badge/Terraform-1.7-7B42BC?logo=terraform&logoColor=white)](https://terraform.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/ashwani547/finops-cloud-cost-optimizer/actions/workflows/ci.yaml/badge.svg)](https://github.com/ashwani547/finops-cloud-cost-optimizer/actions)
+[![CI](https://github.com/betelabs/finops-cloud-cost-optimizer/actions/workflows/ci.yaml/badge.svg)](https://github.com/betelabs/finops-cloud-cost-optimizer/actions)
 
 </div>
 
@@ -98,7 +98,7 @@ aws configure   # AWS CLI with Cost Explorer + EC2 + CloudWatch access
 
 ### Install
 ```bash
-git clone https://github.com/ashwani547/finops-cloud-cost-optimizer.git
+git clone https://github.com/betelabs/finops-cloud-cost-optimizer.git
 cd finops-cloud-cost-optimizer
 pip install -r requirements.txt
 cp config/config.example.yaml config/config.yaml
